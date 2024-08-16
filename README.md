@@ -35,10 +35,10 @@ Pre-processing is performed according to [Ouyang et al.](https://github.com/chen
 ### Training
 1. Compile `./data/supervoxels/felzenszwalb_3d_cy.pyx` with cython (`python ./data/supervoxels/setup.py build_ext --inplace`) and run `./data/supervoxels/generate_supervoxels.py` 
 2. Download pre-trained ResNet-101 weights [vanilla version](https://download.pytorch.org/models/resnet101-63fe2227.pth) or [deeplabv3 version](https://download.pytorch.org/models/deeplabv3_resnet101_coco-586e9e4e.pth) and put your checkpoints folder, then replace the absolute path in the code `./models/encoder.py`.  
-3. Run `./script/train.sh` 
+3. Run `./scripts/train.sh` 
 
 ### Inference
-Run `./script/evaluate.sh` 
+Run `./scripts/evaluate.sh` 
 
 ### Citation
 ```
