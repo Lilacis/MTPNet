@@ -1,6 +1,6 @@
 # FSMIS via MTPNet
 
-![image](https://github.com/zmcheng9/GMRD/blob/main/overview.png)
+![image](https://github.com/FeifanSong/MTPNet/blob/master/Image.png)
 
 ### Abstract
 Given the high annotation costs and ethical considerations associated with medical images, leveraging a limited number of annotated samples for Few-Shot Medical Image Segmentation (FSMIS) has become increasingly prevalent. However, existing models tend to focus on visible foreground support information, often overlooking extreme foreground-background imbalances. In addition, query images sometimes have slight different appearance compared to support images of the same category due to the differences in size as well as slicing angle, thus employing only support images to generate prototypes inevitably leads to matching bias.
